@@ -29,3 +29,45 @@ $(function() {
   }); 
 });
 
+
+function scrollIntoAbout() {
+document.getElementById("duhan").scrollIntoView({
+  behavior: 'smooth',
+  block: 'center',
+  inline: 'center'
+});
+}
+
+function scrollIntoService() {
+document.getElementById("our-service").scrollIntoView({
+  behavior: 'smooth',
+  block: 'center',
+  inline: 'center',
+  
+});
+}
+
+function scrollIntoReferrer() {
+document.getElementById("referrer-info").scrollIntoView({
+  behavior: 'smooth',
+  block: 'center',
+  inline: 'center'
+});
+}
+
+function scrollIntoContact() {
+document.getElementById("contact").scrollIntoView({
+  behavior: 'smooth',
+  block: 'center',
+  inline: 'center'
+});
+}
+
+function scrollIntoTop() {
+document.getElementById("top-page").scrollIntoView({
+  behavior: 'smooth',
+  block: 'center',
+  inline: 'center'
+});
+}
+

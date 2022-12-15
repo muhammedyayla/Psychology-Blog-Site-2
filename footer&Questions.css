@@ -20,6 +20,7 @@ transform: scale(1.04);
 position: absolute;
 width: 100%;
 height: 100%;
+font-size: large;
 background: #4db48d;
 color: #f1f1f1;
 text-align: center;
@@ -28,6 +29,19 @@ z-index: 999;
 transition: .6s linear;
 border-radius: 40px;
 }
+
+.share-button lord-icon{
+  color: #245e48;
+  font-size: 30px;
+}
+
+.share-button i:hover{
+  color: #4db48d;
+  transition: .2s linear;
+
+}
+
+
 
 .share-button:hover span{
 transform: translateX(-100%);
@@ -190,6 +204,95 @@ background-color: white;
     -webkit-filter: blur(12px) opacity(0%);
             filter: blur(12px) opacity(0%);
   }
+}
+
+
+/* Path: Questions */
+
+
+
+.frequently__Asked-Questions-Container-for-bg {
+  background-image: url("img/jumbotron-fluid-backgroundd.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-top: auto;
+} 
+
+.frequently_Questions-row{
+  float: left;
+  margin-bottom: 20px;
+  border-style: outset; ;
+  padding-left: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  color: #e2e2e2;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.frequently_Questions-row:hover{
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.589);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.frequently_Questions-row p{
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.lead{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-transform:none;
+  color: #4db48d;
+
+}
+
+.frequently_Questions-title{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.separator-one {
+  justify-content: center;
+  text-align: center;
+  padding: 5px 30px 0 30px;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #4db48d;
+  color: #ffffff;
+
+}
+
+.separator-two {
+  justify-content: center;
+  padding: 5px 30px 0 30px;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.frequently_Questions-title{
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 
