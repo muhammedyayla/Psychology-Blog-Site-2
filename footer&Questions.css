@@ -41,8 +41,6 @@ border-radius: 40px;
 
 }
 
-
-
 .share-button:hover span{
 transform: translateX(-100%);
 transition-delay: .3s;
@@ -115,6 +113,14 @@ position:relative;
 height:15vh;
 text-align:center;
 background-color: white;
+}
+.footer-content img{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  align-items: right;
+  justify-content: right;
+  transition: .2s linear;
 }
 .parallax > use {
     animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
@@ -207,12 +213,40 @@ background-color: white;
 }
 
 
+/* Family Therapy */
+
+.online-therapy-row img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+  margin: 20px;
+  padding: 0;
+}
+
+.online-therapy-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.online-therapy-row p{
+  font-size: 18px;
+  font-weight: 400;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
 /* Path: Questions */
 
 
 
 .frequently__Asked-Questions-Container-for-bg {
-  background-image: url("img/jumbotron-fluid-backgroundd.png");
+  background-image: url("img/jumbotron-fluid-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
